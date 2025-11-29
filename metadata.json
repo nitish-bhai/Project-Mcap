@@ -1,0 +1,5 @@
+{
+  "name": "MocapGen AI",
+  "description": "A browser-based motion capture studio that transforms video into Blender-ready skeletal animation using AI pose estimation.",
+  "requestFramePermissions": []
+}

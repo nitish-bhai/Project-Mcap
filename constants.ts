@@ -1,0 +1,31 @@
+import { MP_POSE } from './types';
+
+// Simple connecting lines for visualization
+export const SKELETON_CONNECTIONS = [
+  [MP_POSE.NOSE, MP_POSE.LEFT_SHOULDER],
+  [MP_POSE.NOSE, MP_POSE.RIGHT_SHOULDER],
+  [MP_POSE.LEFT_SHOULDER, MP_POSE.RIGHT_SHOULDER],
+  [MP_POSE.LEFT_SHOULDER, MP_POSE.LEFT_ELBOW],
+  [MP_POSE.LEFT_ELBOW, MP_POSE.LEFT_WRIST],
+  [MP_POSE.RIGHT_SHOULDER, MP_POSE.RIGHT_ELBOW],
+  [MP_POSE.RIGHT_ELBOW, MP_POSE.RIGHT_WRIST],
+  [MP_POSE.LEFT_SHOULDER, MP_POSE.LEFT_HIP],
+  [MP_POSE.RIGHT_SHOULDER, MP_POSE.RIGHT_HIP],
+  [MP_POSE.LEFT_HIP, MP_POSE.RIGHT_HIP],
+  [MP_POSE.LEFT_HIP, MP_POSE.LEFT_KNEE],
+  [MP_POSE.LEFT_KNEE, MP_POSE.LEFT_ANKLE],
+  [MP_POSE.LEFT_ANKLE, MP_POSE.LEFT_FOOT_INDEX],
+  [MP_POSE.RIGHT_HIP, MP_POSE.RIGHT_KNEE],
+  [MP_POSE.RIGHT_KNEE, MP_POSE.RIGHT_ANKLE],
+  [MP_POSE.RIGHT_ANKLE, MP_POSE.RIGHT_FOOT_INDEX],
+];
+
+// Configuration for Firebase (Placeholder)
+export const FIREBASE_CONFIG_PLACEHOLDER = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "project-id.firebaseapp.com",
+  projectId: "project-id",
+  storageBucket: "project-id.appspot.com",
+  messagingSenderId: "sender-id",
+  appId: "app-id"
+};
